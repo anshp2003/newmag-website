@@ -1,4 +1,4 @@
-< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>.h10 {
+.h10 {
     height: 10px;
 }
 
@@ -10235,6 +10235,18 @@
     transition: 1s;
     background-color: #303e4b;
 }
+.red:hover {
+    cursor: pointer;
+    color: #ddd;
+    transition: 1s;
+    background-color: #f61010;
+}
+.silt:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #303e4b;
+    color: white;
+}
 
 .fn:hover {
     cursor: pointer;
@@ -10285,9 +10297,14 @@
 .bgnew {
     background-color: #fbfbfb;
 }
+.bgn2{
+    background-color:#;
+}
 
 /* border */
-
+.bdn{
+    border: none;
+}
 .bdr {
     border: 1px solid #999999;
 }
@@ -10297,6 +10314,9 @@
 }
 
 .bd {
+    border: 2px solid #ddd;
+}
+.bdf {
     border: 1px solid #ddd;
 }
 
@@ -10305,7 +10325,7 @@
 }
 
 .bdradius {
-    border-radius: 40px
+    border-radius: 100%
 }
 
 .bdrd {
@@ -10681,43 +10701,48 @@
 }
 
 .poa {
-    position: absolute;
-    top: 580px;
+    position: relative;
+    top: -35px;
     background-color: black;
     color: #ddd;
 }
 
 .poc {
-    position: absolute;
-    top: 580px;
-    left: 687px;
+    position: relative;
+    top: -65px;
+    float: right;
     background-color: rgb(246, 46, 46);
     color: #ddd;
 }
 
 .pob {
-    position: absolute;
-    top: 1180px;
+    position: relative;
+    top: px;
     background-color: black;
     color: #ddd;
 }
 
 .pod {
-    position: absolute;
-    top: 1180px;
-    left: 989px;
+    position: relative;
+    top: px;
+    left: px;
     background-color: rgb(246, 46, 46);
     color: #ddd;
 }
 
-.ro:hover {
-    transform: scale() rotate(5deg);
-
+.rotate:hover img {
+    transform: scale(1.4) rotate(15deg);
+    
 }
+.hide{overflow: hidden;}
 
 * {
     margin: 0;
 }
+.margin{
+    margin: 0px;
+}
+
 
 .black {
     height: 100%;
@@ -10732,12 +10757,14 @@
 }
 
 .b:hover {
-    box-shadow: 0px 0px 10px 1px silver;outline-color: #f75656;
+    box-shadow: 0px 0px 10px 1px silver;
+    outline-color: #f75656;
 }
 
 .box {
-    box-shadow: 0px 0px 5px silver;outline-color: #f7abaf;
-    
+    box-shadow: 0px 0px 5px silver;
+    outline-color: #f7abaf;
+
 }
 
 .boxs:hover {
@@ -10749,3 +10776,15 @@
     display: block;
 }
 
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
